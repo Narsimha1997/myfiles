@@ -15,7 +15,7 @@ default_args = {
 }
 
 dag = DAG(
-    'dag5',
+    'dag',
     default_args=default_args,
     schedule_interval=None
 )
