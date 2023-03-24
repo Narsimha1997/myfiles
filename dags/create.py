@@ -4,8 +4,7 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.empty import EmptyOperator
 import boto3
 import os
-access_key='AKIA4TV5BGTQLVVEUD4I'
-secret_access_key= "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"
+
 
 
 default_args = {
